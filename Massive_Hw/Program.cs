@@ -13,36 +13,47 @@ namespace Massive_Hw
             
           
 
-            int[,] number = new int[2, 3] { { 1, 2, 3 }, { 4,5,6 } };
+            int[] number = new int[] {  1, 2, 3, 4,5,6 } ;
 
-            int[] massive = new int[36] ;
+            int n = Int32.Parse(Console.ReadLine());
+            var a = new string[n, n];
 
-            foreach(int i in massive)
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n; j++)
+                {
+                    a[i, j] = Console.ReadLine();
+                }
+            foreach (string el in a)
             {
-                 
-                int k = Int32.Parse(Console.ReadLine());
-                k = i;
-                Console.WriteLine(massive[i]);
+                Console.Write(el);
             }
 
 
-
-            void Min(int[,] input)
+            void Min(int[] input)
             {
                 int min = int.MaxValue;
-                foreach(int i in input )
+                foreach (int i in input)
                 {
                     if (i < min)
                         min = i;
                 }
-
+                Console.WriteLine();
                 Console.WriteLine(min);
             }
-
             Min(number);
+
             Console.ReadLine();
+
+        }
+            
+
+
+           
+
+        
+            
            
         
-        }
+        
     }
 }

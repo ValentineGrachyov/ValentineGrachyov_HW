@@ -5,3 +5,10 @@ C:\Программирование\Massive_Hw\obj\Debug\Massive_Hw.csproj.Assem
 C:\Программирование\Massive_Hw\obj\Debug\Massive_Hw.csproj.CoreCompileInputs.cache
 C:\Программирование\Massive_Hw\obj\Debug\Massive_Hw.exe
 C:\Программирование\Massive_Hw\obj\Debug\Massive_Hw.pdb
+C:\Программирование\ValentineGrachyov\Massive_Hw\bin\Debug\Massive_Hw.exe.config
+C:\Программирование\ValentineGrachyov\Massive_Hw\bin\Debug\Massive_Hw.exe
+C:\Программирование\ValentineGrachyov\Massive_Hw\bin\Debug\Massive_Hw.pdb
+C:\Программирование\ValentineGrachyov\Massive_Hw\obj\Debug\Massive_Hw.csproj.AssemblyReference.cache
+C:\Программирование\ValentineGrachyov\Massive_Hw\obj\Debug\Massive_Hw.csproj.CoreCompileInputs.cache
+C:\Программирование\ValentineGrachyov\Massive_Hw\obj\Debug\Massive_Hw.exe
+C:\Программирование\ValentineGrachyov\Massive_Hw\obj\Debug\Massive_Hw.pdb
