@@ -27,6 +27,8 @@ namespace Massive_Hw
             {
                 Console.Write(el);
             }
+            Console.WriteLine();
+            Console.WriteLine("Минимальное значение массива ");
 
 
             void Min(int[] input)
