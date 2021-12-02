@@ -4,58 +4,74 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Massive_Hw
+namespace Homework
 {
     class Program
     {
-        static void Main(string[] args)
+        static  void Main()
         {
+
+            var x = Int32.Parse(Console.ReadLine());
             
-          
+            var y = Int32.Parse(Console.ReadLine());
 
-            int[] number = new int[] {  1, 2, 3, 4,5,6 } ;
-
-            int n = Int32.Parse(Console.ReadLine());
-            var a = new string[n, n];
-
-            for (int i = 0; i < n; i++)
-                for (int j = 0; j < n; j++)
-                {
-                    a[i, j] = Console.ReadLine();
-                }
-            foreach (string el in a)
+            int[][] spiralArray = new int[y][];
+            for (int i = 0; i < y; i++)
             {
-                Console.Write(el);
+                spiralArray[i] = new int[x];
             }
-            Console.WriteLine();
-            Console.WriteLine("Минимальное значение массива ");
 
+            int l = 0;
+            int k = 0;
 
-            void Min(int[] input)
+            while (l < y)
             {
-                int min = int.MaxValue;
-                foreach (int i in input)
+                while (k < x)
                 {
-                    if (i < min)
-                        min = i;
+                    spiralArray[l][k] = Int32.Parse(Console.ReadLine());
+                    k++;
+                }
+
+                k--;
+                l++;
+
+                if (l >= y)
+                {
+                    break;
+                }
+
+                while (k >= 0)
+                {
+                    spiralArray[l][k] = Int32.Parse(Console.ReadLine());
+                    k--;
+                }
+
+                l++;
+                k++;
+            }
+
+            for (int i = 0; i < y; i++)
+            {
+                for (int j = 0; j < x; j++)
+                {
+                    Console.Write(spiralArray[i][j]);
+                    Console.Write(" ");
                 }
                 Console.WriteLine();
-                Console.WriteLine(min);
             }
-            Min(number);
 
-            Console.ReadLine();
 
+            Console.ReadKey();
         }
-            
 
 
-           
 
-        
-            
-           
-        
-        
+
+
+
+
+
+
+
     }
 }

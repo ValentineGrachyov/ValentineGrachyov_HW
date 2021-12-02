@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{911A81F3-4110-4B14-8DB5-3D9C1CF7EDE1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Massive_Hw</RootNamespace>
-    <AssemblyName>Massive_Hw</AssemblyName>
+    <RootNamespace>Homework</RootNamespace>
+    <AssemblyName>Homework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Homework\29.09.2021\hw_29_09_2021.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

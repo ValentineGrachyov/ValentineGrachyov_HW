@@ -22,6 +22,7 @@ namespace ConsoleApp2
             double sc_m = a.Scalar_Mult(a);
             Console.WriteLine($"{is_equals} {sc_m}") ;
             Console.ReadLine();
+            //
         }
     }
 }
