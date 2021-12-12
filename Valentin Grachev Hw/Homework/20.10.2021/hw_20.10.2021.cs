@@ -90,7 +90,16 @@ namespace Homework
 
     public class BigNum
     {
-        int[] Array = new int[4];
+        public int[] Num = { 0 };
+        public int[] Num1 = { 0 };
+
+        public int Sum()
+        {
+            
+        }
+
+
+
 
     }
 
