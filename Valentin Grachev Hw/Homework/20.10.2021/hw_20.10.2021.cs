@@ -93,10 +93,10 @@ namespace Homework
         public int[] Num = { 0 };
         public int[] Num1 = { 0 };
 
-        public int Sum()
-        {
+        //public int Sum()
+        //{
             
-        }
+        //}
 
 
 

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Homework\22.09.2021\hw_22_09_2021.cs" />
+    <Compile Include="Homework\27.10.2021\ComplexNum.cs" />
     <Compile Include="Homework\27.10.2021\Matrix_2x2.cs" />
     <Compile Include="Homework\27.10.2021\RationalFraction.cs" />
     <Compile Include="Homework\29.09.2021\hw_29_09_2021.cs" />

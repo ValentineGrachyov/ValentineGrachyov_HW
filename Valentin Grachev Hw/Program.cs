@@ -38,6 +38,14 @@ namespace Homework
             var m1 = new Matrix_2x2(1, 2, 3, 4);
             m.Mult(m1);
             m.Print();
+            var k = new ComplexNum(1,- 2);
+            var k1 = new ComplexNum(1,- 3);
+            k.Complex();
+            k1.Complex();
+            k.ComplexSum(k1);
+            k.ComplexMult(k1);
+            k.Trigonometriya();
+
 
 
             var s = new Student();
@@ -51,9 +59,9 @@ namespace Homework
             num.Num = array;
             num.Num1 = array1;
             num.Sum();
-            
 
-            
+
+
         }
 
 
