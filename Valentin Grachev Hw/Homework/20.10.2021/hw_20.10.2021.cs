@@ -92,11 +92,27 @@ namespace Homework
     {
         public int[] Num = { 0 };
         public int[] Num1 = { 0 };
+        
+        public void Sum(int[] array, int[] array1)
+        {
 
-        //public int Sum()
-        //{
+            int[] result = new int[Math.Max(array.Length, array1.Length)];
             
-        //}
+            for (int i = 0; i < array.Length && i< array1.Length ; i +=1 )
+            {
+                
+
+                result[i] = array[ i] + array1[ i];
+
+                
+               
+            }
+            foreach(var i in result)
+            {
+                Console.WriteLine(i);
+            }
+
+        }
 
 
 
