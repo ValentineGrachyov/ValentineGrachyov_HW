@@ -104,7 +104,7 @@ namespace Homework
 
                 result[i] = array[ i] + array1[ i];
 
-                
+                    
                
             }
             foreach(var i in result)

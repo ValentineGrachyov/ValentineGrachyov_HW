@@ -8,12 +8,13 @@ namespace Homework
 {
     public class ComplexNum
     {
-        public int Real;
+        private int real;
+        public int Real { get { return real; } }
         public int Imagine;
 
         public ComplexNum(int real, int Image)
         {
-            Real = real;
+            this.real = real;
             Imagine = Image;
         }
 
@@ -105,4 +106,6 @@ namespace Homework
 
 
     }
+
+
 }
