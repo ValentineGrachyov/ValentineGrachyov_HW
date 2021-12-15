@@ -67,11 +67,12 @@ namespace Homework
                 storage = value;
             }
         }
-        private bool ethernet;
-        public bool ethernetConnection;
+
+        public bool EthernetConnection;
+
        
         
-        public Electronic(string maker, string name, int power, string energyclass, int  charge, int storage  )
+        public Electronic(string maker, string name, int power, string energyclass, int  charge, int storage, bool ethernet  )
         {
             Maker = maker;
             Name = name;
@@ -79,6 +80,7 @@ namespace Homework
             EnergyClass = energyclass;
             Charge = charge;
             Storage = storage;
+            EthernetConnection = ethernet;
 
         }
 
@@ -87,6 +89,20 @@ namespace Homework
         public override string ToString()
         {
             return $"{Maker}\n{Name}";
+        }
+
+        public override int GetHashCode()
+        {
+            return 54 * Power * Charge;
+        }
+
+        public override bool Equals(object obj)
+        {
+            var b = obj as Electronic;
+            if (Name == b.Name && Maker == b.Maker && Power == b.Power && EnergyClass == b.EnergyClass
+                && Charge == b.Charge && Storage == b.Storage
+                && EthernetConnection == b.EthernetConnection) return true;
+            return false;
         }
 
         public void InFile()
@@ -105,9 +121,6 @@ namespace Homework
             string cost = Console.ReadLine();
              Console.WriteLine($"За ремонт отдано {cost}");
             return $"За ремонт отдано {cost}";
-
-
-
         }
     }
 

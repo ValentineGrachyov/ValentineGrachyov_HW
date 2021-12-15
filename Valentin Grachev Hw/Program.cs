@@ -61,7 +61,7 @@ namespace Homework
             //num.Sum( array, array1 );
             //Console.ReadLine();
 
-            var test = new Electronic("OAO 11-107","Laptop",25,"A+",50, 256);
+            var test = new Electronic("OAO 11-107","Laptop",25,"A+",50, 256, true);
             test.InFile();
             test.RepairC();
 
