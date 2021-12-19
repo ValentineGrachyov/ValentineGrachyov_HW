@@ -10,9 +10,9 @@ namespace Homework
     abstract public class Tech
     {
         public string Maker;
-        
-        private int  power;
-        public int Power 
+
+        private int power;
+        public int Power
         {
             get
             {
@@ -20,7 +20,7 @@ namespace Homework
             }
             set
             {
-                if(value<0)
+                if (value < 0)
                 {
                     throw new Exception("   МОЩНОСТЬ БОЛЬШЕ НУЛЯ");
                 }
@@ -30,14 +30,14 @@ namespace Homework
         public string EnergyClass;
         public string Name;
 
-        
+
     }
-     public   class Electronic: Tech
+    public class Electronic : Tech
     {
         private int charge;
-        public int Charge 
+        public int Charge
         {
-            get 
+            get
             {
                 return charge;
             }
@@ -52,7 +52,7 @@ namespace Homework
             }
         }
         private int storage;
-        public int Storage 
+        public int Storage
         {
             get
             {
@@ -70,9 +70,9 @@ namespace Homework
 
         public bool EthernetConnection;
 
-       
-        
-        public Electronic(string maker, string name, int power, string energyclass, int  charge, int storage, bool ethernet  )
+
+
+        public Electronic(string maker, string name, int power, string energyclass, int charge, int storage, bool ethernet)
         {
             Maker = maker;
             Name = name;
@@ -112,17 +112,58 @@ namespace Homework
             file.Dispose();
 
         }
-   
+
     }
     public static class Extention
     {
         public static string RepairC(this Electronic price)
         {
             string cost = Console.ReadLine();
-             Console.WriteLine($"За ремонт отдано {cost}");
+            Console.WriteLine($"За ремонт отдано {cost}");
             return $"За ремонт отдано {cost}";
         }
     }
 
+    public class Stack
+    {
+        private Electronic[] devices = { };
 
-}
+        public void Add(params Electronic[] add)
+        {
+            Electronic[] result = new Electronic[devices.Length + add.Length]; // Creating array with needing length
+
+            devices.CopyTo(result, 0); // Copy source array to the new array
+            add.CopyTo(result, devices.Length); // Copy add array or nums to the new array
+
+            devices = result;
+        }
+
+        
+
+        public Stack() { }
+
+        public Electronic Read()
+        {
+            if (devices.Length == 0)
+                throw new Exception("Stack is empty");
+            var result = devices[devices.Length - 1];
+
+            Electronic[] new_devices = new Electronic[devices.Length - 1];
+
+            for (int i = 0; i < new_devices.Length; i++)
+            {
+                new_devices[i] = devices[i];
+            }
+
+
+            devices = new_devices;
+            return result;
+        }
+
+        public void Print()
+        {
+            foreach (var device in devices)
+                Console.WriteLine(device.ToString());
+        }
+    }
+}  

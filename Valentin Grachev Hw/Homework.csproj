@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control work2\Weapon.cs" />
     <Compile Include="Control work\FinalProgramm.cs" />
     <Compile Include="Homework\22.09.2021\hw_22_09_2021.cs" />
     <Compile Include="Homework\27.10.2021\ComplexNum.cs" />

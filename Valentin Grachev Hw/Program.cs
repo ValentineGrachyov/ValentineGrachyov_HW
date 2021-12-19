@@ -61,13 +61,26 @@ namespace Homework
             //num.Sum( array, array1 );
             //Console.ReadLine();
 
-            var test = new Electronic("OAO 11-107","Laptop",25,"A+",50, 256, true);
-            test.InFile();
-            test.RepairC();
-
-
-
+            //var test = new Electronic("OAO 11-107","Laptop",25,"A+",50, 256, true);
+            //var test1 = new Electronic("OAO 11-106","Laptop",25,"c++",1, 16, false);
+            //var stack = new Stack();
+            //stack.Add(test,test1);
+            //stack.Print();
             
+            //test.InFile();
+            //test.RepairC();
+
+
+            var control = new Weapon("Экскалибур", 99999, 80);
+            var control1 = new Policeman("Иван","Иванов","Иваныч","Прапорщик",control);
+            control1.Print();
+            control.DoDamage();
+            control.Repair();
+            Console.ReadKey();
+            
+
+
+                
 
 
 
