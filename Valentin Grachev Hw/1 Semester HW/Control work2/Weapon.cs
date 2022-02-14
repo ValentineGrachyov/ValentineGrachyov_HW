@@ -44,9 +44,9 @@ namespace Homework
             }
         }
 
-        public Weapon(string name ,int damage, int durability)
+        public Weapon(string Name ,int damage, int durability)
         {
-            Name = name;
+            this.Name = Name;
             Damage = damage;
             Durability = durability;
         }

@@ -1,0 +1,16 @@
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.exe
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.deps.json
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.runtimeconfig.json
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.runtimeconfig.dev.json
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.dll
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\ref\AISD.dll
+C:\Программирование\ValentineGrachyov\AISD\bin\Debug\net5.0\AISD.pdb
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.csproj.AssemblyReference.cache
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.AssemblyInfoInputs.cache
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.AssemblyInfo.cs
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.csproj.CoreCompileInputs.cache
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.dll
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\ref\AISD.dll
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.pdb
+C:\Программирование\ValentineGrachyov\AISD\obj\Debug\net5.0\AISD.genruntimeconfig.cache

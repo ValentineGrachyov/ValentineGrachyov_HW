@@ -8,6 +8,7 @@ namespace Homework
 {
     public class ComplexNum
     {
+
         private int real;
         public int Real { get { return real; } }
         public int Imagine;
@@ -35,7 +36,7 @@ namespace Homework
 
         public void ComplexSum(ComplexNum input)
         {
-            Console.WriteLine("Сумма двух комплексных чисел");
+            //Console.WriteLine("Сумма двух комплексных чисел");
             int real1 = Real + input.Real;
 
             int image1 = Imagine + input.Imagine;
@@ -45,6 +46,12 @@ namespace Homework
         }
 
 
+        private static ComplexNum Add(ComplexNum a, ComplexNum b)
+        {
+            a.ComplexSum(b);
+            return a;
+        }
+        public static ComplexNum operator +(ComplexNum a, ComplexNum b) => ComplexNum.Add(a, b);  
         public void ComplexMult(ComplexNum input)
         {
             Console.WriteLine("Перемножение чисел");
@@ -104,7 +111,10 @@ namespace Homework
             Console.ReadLine();
         }
 
-
+        public override string ToString()
+        {
+            return $"{Real} {Imagine}";
+        }
     }
 
 

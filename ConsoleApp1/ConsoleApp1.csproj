@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{911A81F3-4110-4B14-8DB5-3D9C1CF7EDE1}</ProjectGuid>
+    <ProjectGuid>{48D325C0-A1A3-4214-8137-036381BAC64C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homework</RootNamespace>
-    <AssemblyName>Homework</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -43,23 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 Semester HW\Control work2\Weapon.cs" />
-    <Compile Include="1 Semester HW\Control work\FinalProgramm.cs" />
-    <Compile Include="1 Semester HW\Homework\17.11.2021\Triangle.cs" />
-    <Compile Include="1 Semester HW\Homework\22.09.2021\hw_22_09_2021.cs" />
-    <Compile Include="1 Semester HW\Homework\27.10.2021\ComplexNum.cs" />
-    <Compile Include="1 Semester HW\Homework\27.10.2021\Matrix_2x2.cs" />
-    <Compile Include="1 Semester HW\Homework\27.10.2021\RationalFraction.cs" />
-    <Compile Include="1 Semester HW\Homework\29.09.2021\hw_29_09_2021.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Compile Include="1 Semester HW\Homework\20.10.2021\hw_20.10.2021.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="2 Semester Hw\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
