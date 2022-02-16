@@ -6,7 +6,7 @@ namespace AISD
     {
         static void Main(string[] args)
         {
-
+            // В k вписывается количество массивов.
             int k = 4;
             
             int[][] array = ArrayHW.ReadFile(k);
