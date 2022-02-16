@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework._2_Semester_Hw.HW_1
+namespace Homework
 {
     class Class1
     {
+
     }
 }

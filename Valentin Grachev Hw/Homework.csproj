@@ -51,6 +51,7 @@
     <Compile Include="1 Semester HW\Homework\27.10.2021\Matrix_2x2.cs" />
     <Compile Include="1 Semester HW\Homework\27.10.2021\RationalFraction.cs" />
     <Compile Include="1 Semester HW\Homework\29.09.2021\hw_29_09_2021.cs" />
+    <Compile Include="2 Semester Hw\HW_1\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,8 +59,6 @@
     <None Include="App.config" />
     <Compile Include="1 Semester HW\Homework\20.10.2021\hw_20.10.2021.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="2 Semester Hw\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
