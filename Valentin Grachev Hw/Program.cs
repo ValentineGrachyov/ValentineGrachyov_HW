@@ -13,7 +13,7 @@ namespace Homework
     {
         static void Main()
         {
-            Console.WriteLine("asfafs");
+            
         }
 
 
