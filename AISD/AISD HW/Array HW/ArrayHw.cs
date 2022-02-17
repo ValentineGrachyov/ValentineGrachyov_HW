@@ -10,30 +10,20 @@ namespace AISD
     public class ArrayHW
     {
 
-        public static int[][] ReadFile(int k)
+        public static int[][] ReadFile(string path)
         {
-            int[][] result = new int[k][];
+            int[][] result = Array.Empty<int[]>();
             
-
-            StreamReader str = new StreamReader(@"C:\Программирование\Task4.txt");
-
+            
+            StreamReader sr = new(path);
+            var length = int.Parse(sr.ReadLine());
             // С каждой итерацией i в первом цикле мы двигаемся по ячейкам, в которых будут храниться массивы.
-            for (int i = 0; i <k; i++)
+            for (int i = 1; i < length; i++)
             {
-               
-                string a = str.ReadLine();
-                string[] a1 = a.Split(' ');
-                int[] nums = new int[a1.Length];
 
-
+                _ = result.Append(Array.ConvertAll(sr.ReadLine().Split(' '), int.Parse));
                 // Во втором цикле, массив nums заполняется считанной строкой, и передается в ячейки result. 
-                for(int j = 0; j<a1.Length; j++)
-                {
-                    nums[j] = Convert.ToInt32(a1[j]);
-                    result[i] = nums;
-                                        
-                }
-  
+                
             }
             return result;
         }
