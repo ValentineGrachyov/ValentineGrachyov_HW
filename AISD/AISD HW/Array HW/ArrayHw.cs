@@ -18,24 +18,28 @@ namespace AISD
             StreamReader sr = new(path);
             var length = int.Parse(sr.ReadLine());
             // С каждой итерацией i в первом цикле мы двигаемся по ячейкам, в которых будут храниться массивы.
-            for (int i = 1; i < length; i++)
+            for (int i = 1; i <= length; i++)
             {
 
-                _ = result.Append(Array.ConvertAll(sr.ReadLine().Split(' '), int.Parse));
+                result =  result.Append(Array.ConvertAll(sr.ReadLine().Split(' '), int.Parse)).ToArray();
                 // Во втором цикле, массив nums заполняется считанной строкой, и передается в ячейки result. 
                 
             }
+            
+            sr.Dispose();
             return result;
         }
 
-        public static int[] Task4(int[][] array, int k)
+        public static int[] Task4(int[][] array)
         {
 
-           
 
-            int[] result = new int[0];
 
-            for (int i = 0; i < k; i++)
+            int[] result = { };
+;
+            //foreach(var el in result)
+
+            for (int i = 0; i < array.GetLength(0); i++)
             {
 
                 result = ArrayClasswork.JoinArray(result, array[i]);

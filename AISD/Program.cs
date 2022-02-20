@@ -6,16 +6,23 @@ namespace AISD
     {
         static void Main(string[] args)
         {
-            // В k вписывается количество массивов.
-            int k = 4;
-            
-            int[][] array = ArrayHW.ReadFile(k);
-            int[] result = ArrayHW.Task4(array, k);
+            //var path = @"C:\Программирование\Task4.txt";
 
-            foreach (int el in result)
-            {
-                Console.Write($"{el} ");
-            }
+            //var result = ArrayHW.Task4(ArrayHW.ReadFile(path));
+            //Console.WriteLine(String.Join(" ", result));
+
+            int[] array = new int[7] { 1, 2, 3, 1, 2, 20, 1 };
+            var result = ArrayClasswork2.UniqNumCount(array);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+
+
+
+
+
+
+
 
             Console.ReadLine();
         }

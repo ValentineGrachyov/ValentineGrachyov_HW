@@ -5,6 +5,7 @@ namespace AISD
 {
     public class ArrayClasswork
     {
+        
         public static int[] JoinArray(int[] a1, int[] a2)
         {
             if (a1?.Length == 0 && a2?.Length == 0)

@@ -1,0 +1,7 @@
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\bin\Debug\Homework.exe.config
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\bin\Debug\Homework.exe
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\bin\Debug\Homework.pdb
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.csproj.AssemblyReference.cache
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.exe
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.pdb
