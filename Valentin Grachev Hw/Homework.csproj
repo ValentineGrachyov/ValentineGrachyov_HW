@@ -55,6 +55,9 @@
     <Compile Include="2 Semester Hw\Hw1_Связные списки\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Пересдача\Ingrediate.cs" />
+    <Compile Include="Пересдача\MainFood.cs" />
+    <Compile Include="Пересдача\TypeOffood.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
