@@ -14,25 +14,22 @@ namespace Homework
         static void Main()
         {
 
-            //var list = new CustomList(4);
-            //list.AddToHead(1);
-            //list.AddToHead(2);
-            //list.AddToHead(3);
-            //list.AddToHead(4);
-            //list.AddToHead(5);
-            //list.AddToHead(6);
-            //list.AddToHead(7);
-            //list.AddToHead(8);
-            //list.AddToHead(9);
-            //list.AddToHead(10);
-            //list.DeletePosition(3);
-            //list.WriteToConsole();
-            //Console.ReadLine();
+            var list = new CustomList(4);
+            list.AddToHead(1);
+            list.AddToHead(2);
+            list.AddToHead(3);
+            list.AddToHead(4);
+            list.AddToHead(5);
+            list.AddToHead(6);
+            list.AddToHead(7);
+            list.AddToHead(8);
+            list.AddToHead(9);
+            list.AddToHead(10);
+            list.Add_Near_Element(4,5);
+            list.WriteToConsole();
+            Console.ReadLine();
 
-            string path = @"C:\Программирование\Test";
 
-            var a = new TypeOffood("sup", "cola", "cezar", "lavash");
-            a.Get_In_File(path);
 
             Console.ReadLine();
 
