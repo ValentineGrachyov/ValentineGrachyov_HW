@@ -20,7 +20,7 @@ namespace Homework
 
             //stack.DeleteSecondEl();
             //stack.DeletePrevElement();
-            stack.Peek(1);
+            stack.Peek();
             
             stack.Bust();
             
