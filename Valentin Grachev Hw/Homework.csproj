@@ -52,12 +52,13 @@
     <Compile Include="1 Semester HW\Homework\27.10.2021\RationalFraction.cs" />
     <Compile Include="1 Semester HW\Homework\29.09.2021\hw_29_09_2021.cs" />
     <Compile Include="2 Semester Hw\Hw1_Связные списки\CustomList.cs" />
+    <Compile Include="2 Semester Hw\Hw1_Связные списки\HW_Task_2.cs" />
     <Compile Include="2 Semester Hw\Hw1_Связные списки\Node.cs" />
+    <Compile Include="2 Semester Hw\HW2_ArrayList\ArrayList.cs" />
+    <Compile Include="Control Work\StackRealization.cs" />
+    <Compile Include="Control Work\StackRunner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Пересдача\Ingrediate.cs" />
-    <Compile Include="Пересдача\MainFood.cs" />
-    <Compile Include="Пересдача\TypeOffood.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

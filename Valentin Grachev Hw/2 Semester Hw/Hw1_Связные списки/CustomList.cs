@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Homework
 {
-    class CustomList
+     public class CustomList
     {
 
-        private Node head;
+        protected Node head;
 
         public CustomList() { }
 
@@ -17,6 +17,10 @@ namespace Homework
         {
             head = new Node(a);
         }
+
+       
+
+
 
         // Метод для первого расширенного задания.
         public void DeletePenultimate()
@@ -109,7 +113,7 @@ namespace Homework
         {
             var headCopy = head;
 
-            while (headCopy.InfField != k)
+            while (headCopy.InfField != a)
             {
                 headCopy = headCopy.NextNode;
 

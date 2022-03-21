@@ -1,0 +1,17 @@
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Tests_For_HW.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Tests_For_HW.pdb
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Homework.exe
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Homework.pdb
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Homework.exe.config
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Программирование\ValentineGrachyov\Tests_For_HW\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Программирование\ValentineGrachyov\Tests_For_HW\obj\Debug\Tests_For_HW.csproj.AssemblyReference.cache
+C:\Программирование\ValentineGrachyov\Tests_For_HW\obj\Debug\Tests_For_HW.csproj.CoreCompileInputs.cache
+C:\Программирование\ValentineGrachyov\Tests_For_HW\obj\Debug\Tests_For_HW.csproj.CopyComplete
+C:\Программирование\ValentineGrachyov\Tests_For_HW\obj\Debug\Tests_For_HW.dll
+C:\Программирование\ValentineGrachyov\Tests_For_HW\obj\Debug\Tests_For_HW.pdb

@@ -6,16 +6,17 @@ namespace AISD
     {
         static void Main(string[] args)
         {
-            //var path = @"C:\Программирование\Task4.txt";
 
-            //var result = ArrayHW.Task4(ArrayHW.ReadFile(path));
-            //Console.WriteLine(String.Join(" ", result));
+            var list = new CustomList(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            list.Add(6);
+            list.ReplaceNearEl();
+            
 
-            int[] array = new int[7] { 1, 2, 3, 1, 2, 20, 1 };
-            var result = ArrayClasswork2.UniqNumCount(array);
-
-            Console.WriteLine(result);
-            Console.ReadLine();
+            list.WriteToConsole();
 
 
 
