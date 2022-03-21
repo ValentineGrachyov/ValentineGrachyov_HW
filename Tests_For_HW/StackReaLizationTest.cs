@@ -55,8 +55,13 @@ namespace Homework
             s.Add(4);
             s.Add(5);
             s.DeletePrevElement();
+            var s1 = new Stack<int>();
+            s1.Add(1);
+            s1.Add(3);
+            s1.Add(4);
+            s1.Add(5);
 
-            Assert.AreEqual(s.ToString(), new string[] { "5","4","3","1"});
+            Assert.AreEqual(s.ToString(), s1.ToString());
         }
         [TestMethod]
         public void Bust_Test()
@@ -67,8 +72,14 @@ namespace Homework
             s.Add(3);
             s.Add(4);
             s.Add(5);
+            var s1 = new Stack<int>();
+            s1.Add(1);
+            s1.Add(2);
+            s1.Add(3);
+            s1.Add(4);
+            s1.Add(5);
 
-            Assert.AreEqual(s.Size(), 4);
+            Assert.AreEqual(s.ToString(), s1.ToString());
         }
         [TestMethod]
         public void Peek_Test()
@@ -79,7 +90,7 @@ namespace Homework
             s.Add(3);
             s.Add(4);
             s.Add(5);
-            s.Peek(1);
+            s.Peek();
 
             Assert.AreEqual(s.Size(), 4);
         }

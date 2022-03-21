@@ -39,7 +39,7 @@ namespace Homework
             count--;
         }
 
-        public void Peek(T a)
+        public void Peek()
         {
             if (count == 0)
                 throw new Exception("Пустой стек");
