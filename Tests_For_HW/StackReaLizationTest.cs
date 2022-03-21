@@ -43,7 +43,7 @@ namespace Homework
             s.Add(5);
             s.DeleteSecondEl();
 
-            Assert.AreEqual(s.ToString(), "5\n4\n3\n1");
+            Assert.AreEqual(s.Size(),4);
         }
         [TestMethod]
         public void Delete_Prev_El_Test()
@@ -56,7 +56,7 @@ namespace Homework
             s.Add(5);
             s.DeletePrevElement();
 
-            Assert.AreEqual(s.ToString(), "5321");
+            Assert.AreEqual(s.ToString(), new string[] { "5","4","3","1"});
         }
         [TestMethod]
         public void Bust_Test()
@@ -68,7 +68,7 @@ namespace Homework
             s.Add(4);
             s.Add(5);
 
-            Assert.AreEqual(s.ToString(), "54321");
+            Assert.AreEqual(s.Size(), 4);
         }
         [TestMethod]
         public void Peek_Test()
@@ -81,7 +81,7 @@ namespace Homework
             s.Add(5);
             s.Peek(1);
 
-            Assert.AreEqual(s.ToString(),"5432" );
+            Assert.AreEqual(s.Size(), 4);
         }
     }
 }

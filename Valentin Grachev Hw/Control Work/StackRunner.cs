@@ -18,12 +18,13 @@ namespace Homework
             stack.Add(4);
             stack.Add(5);
 
-            stack.DeleteSecondEl();
+            //stack.DeleteSecondEl();
             //stack.DeletePrevElement();
-            //stack.Peek(1);
+            stack.Peek(1);
             
             stack.Bust();
-            Console.WriteLine($" {stack.Size()}");
+            
+            Console.WriteLine($" \n{stack.Size()}");
         }
     }
 }

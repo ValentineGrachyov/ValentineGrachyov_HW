@@ -44,7 +44,8 @@ namespace Homework
             if (count == 0)
                 throw new Exception("Пустой стек");
 
-            stack.RemoveAt(stack.Count-count );
+            stack.RemoveAt(stack.Count-count  );
+            count--;
         }
 
         public int Size()
