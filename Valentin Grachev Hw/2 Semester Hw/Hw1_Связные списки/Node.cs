@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Homework
-{
-    public class Node
-    {
-        public int InfField;
-        public Node NextNode;
+//namespace Homework
+//{
+//    public class Node
+//    {
+//        public int InfField;
+//        public Node NextNode;
 
-        public Node(int a)
-        {
-            InfField = a;
-        }
-    }
-}
+//        public Node(int a)
+//        {
+//            InfField = a;
+//        }
+//    }
+//}

@@ -3,20 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
-
 
 namespace Homework.Control_Work
-
 {
-    class Program
+    public class Node<T>
     {
-        static void Main()
+        public T InfField;
+        public Node<T> NextNode;
+
+        public Node(T a)
         {
-            StackRunner.Run();
-            Console.ReadLine();
+            InfField = a;
         }
-
-
     }
 }

@@ -55,6 +55,7 @@
     <Compile Include="2 Semester Hw\Hw1_Связные списки\HW_Task_2.cs" />
     <Compile Include="2 Semester Hw\Hw1_Связные списки\Node.cs" />
     <Compile Include="2 Semester Hw\HW2_ArrayList\ArrayList.cs" />
+    <Compile Include="Control Work\Node.cs" />
     <Compile Include="Control Work\StackRealization.cs" />
     <Compile Include="Control Work\StackRunner.cs" />
     <Compile Include="Program.cs" />

@@ -5,81 +5,101 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace Homework
+namespace Homework.Control_Work
 {
-    public class Stack<T> : IComparable<Stack<T>> , IEnumerable
+    public class StackRealization<T> 
     {
-        List<T> stack = new List<T>();
-        private int count = 0;
-        private int max = int.MaxValue;
+        private Node<T> head;
+        
+        public StackRealization() { }
 
-
-        public int CompareTo(Stack<T> other)
+        public StackRealization(T a)
         {
-            if (other == null) return 1;
-
-            return max.CompareTo(other.max);
-        }
-
-        public void Add(T a)
-        {
-            stack.Add(a);
-            count++;
-        }
-
-        public void DeleteSecondEl()
-        {
-            stack.RemoveAt(1);
-            count--;
-        }
-
-        public void DeletePrevElement()
-        {
-            stack.RemoveAt(stack.Count - 2);
-            count--;
-        }
-
-        public void Peek()
-        {
-            if (count == 0)
-                throw new Exception("Пустой стек");
-
-            stack.RemoveAt(stack.Count-count  );
-            count--;
-        }
-
-        public int Size()
-        {
-            return count;
+            head = new Node<T>(a);
         }
 
         public bool IsEmpty()
         {
-            if (count == 0)
-            {
-                return false;
-            }                
-            return true;
+            return Size() == 0;
         }
 
-        public void Bust()
+        public int Size()
         {
-            for(int i = stack.Count-1; i >=0; i--)
+            int count = 0;
+            while(head != null)
             {
-                Console.WriteLine(stack[i]);
+                head = head.NextNode;
+                count++;
             }
+            return count;
+
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        public void AddEl(T a)
         {
-            return (IEnumerator)GetEnumerator();
+            var newNode = new Node<T>(a);            
+            if (head == null)
+            { Console.WriteLine("Стек пустой"); }
+            newNode.NextNode = head;
+            head = newNode;      
         }
 
-        public Stack<T> GetEnumerator()
+        public void DeleteSecondEl()
         {
-            return new Stack<T>();
+            var headCopy = head;
+            headCopy.NextNode = headCopy.NextNode.NextNode;   
         }
+
+        public void DeletePenultimateEl()
+        {
+            var headCopy = head;
+            var nextEl = headCopy.NextNode.NextNode;
+
+            while(nextEl.NextNode != null)
+            {
+                headCopy = headCopy.NextNode;
+                nextEl = nextEl.NextNode;
+                
+            }
+            headCopy.NextNode = nextEl;
+            
+        }
+
+        
+
+
+
+        public override string ToString()
+        {
+            StringBuilder result = new StringBuilder();
+            if (head == null)
+            {
+
+                return "Список пуст";
+            }
+            var headCopy = head;
+            while (headCopy.NextNode != null)
+            {
+                result.Append(headCopy.InfField.ToString() + "\n");
+                headCopy = headCopy.NextNode;
+            }
+
+            result.Append(headCopy.InfField.ToString() + "");
+            return result.ToString();
+
+        }
+        public void WriteToConsole()
+        {
+            Console.WriteLine(ToString());
+        }
+
+
+
     }
 
-    
+
+
 }
+
+    
+
