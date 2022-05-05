@@ -88,6 +88,12 @@ namespace Homework.Control_Work
             return result.ToString();
 
         }
+
+        public void Add(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public void WriteToConsole()
         {
             Console.WriteLine(ToString());

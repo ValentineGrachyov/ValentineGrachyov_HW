@@ -5,3 +5,4 @@ C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\De
 C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.csproj.CoreCompileInputs.cache
 C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.exe
 C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.pdb
+C:\Программирование\ValentineGrachyov\Valentin Grachev Hw\obj\Debug\Homework.csproj.SuggestedBindingRedirects.cache

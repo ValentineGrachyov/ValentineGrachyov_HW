@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6382b344-8023-4e1a-9136-31d192748988": {
+      "ProjectGuid": "6382b344-8023-4e1a-9136-31d192748988",
+      "DisplayName": "AISD",
+      "ColorIndex": 0
+    },
+    "911a81f3-4110-4b14-8db5-3d9c1cf7ede1": {
+      "ProjectGuid": "911a81f3-4110-4b14-8db5-3d9c1cf7ede1",
+      "DisplayName": "Homework",
+      "ColorIndex": 1
+    },
+    "c6a7677b-1fa2-451d-82dc-e1f853e6ec6e": {
+      "ProjectGuid": "c6a7677b-1fa2-451d-82dc-e1f853e6ec6e",
+      "DisplayName": "Tests_For_HW",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
