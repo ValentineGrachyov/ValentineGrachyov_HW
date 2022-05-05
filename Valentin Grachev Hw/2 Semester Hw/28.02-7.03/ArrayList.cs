@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework._2_Semester_Hw.HW2_ArrayList
 {
-    class ArrayList
+    public class ArrayList
     {
 
     }

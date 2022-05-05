@@ -70,13 +70,15 @@
       <option name="presentableId" value="Default" />
       <updated>1647843636692</updated>
       <workItem from="1647843645649" duration="51000" />
+      <workItem from="1651743964001" duration="216000" />
+      <workItem from="1651759258029" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

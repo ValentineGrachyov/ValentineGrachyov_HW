@@ -60,9 +60,22 @@
     <Compile Include="2 Semester Hw\14.02-28.02\CustomList.cs" />
     <Compile Include="2 Semester Hw\14.02-28.02\Node.cs" />
     <Compile Include="2 Semester Hw\28.02-7.03\ArrayList.cs" />
-    <Compile Include="Control Work\Node.cs" />
-    <Compile Include="Control Work\StackRealization.cs" />
-    <Compile Include="Control Work\StackRunner.cs" />
+    <Compile Include="Control Work\CW1\Node.cs" />
+    <Compile Include="Control Work\CW1\StackRealization.cs" />
+    <Compile Include="Control Work\CW1\StackRunner.cs" />
+    <Compile Include="Control Work\CW2\Event1\Child.cs" />
+    <Compile Include="Control Work\CW2\Event1\Contract.cs" />
+    <Compile Include="Control Work\CW2\Event1\Event1.cs" />
+    <Compile Include="Control Work\CW2\Event1\Event1Runner.cs" />
+    <Compile Include="Control Work\CW2\Event2\Civilian.cs" />
+    <Compile Include="Control Work\CW2\Event2\Contract.cs" />
+    <Compile Include="Control Work\CW2\Event2\Event2.cs" />
+    <Compile Include="Control Work\CW2\Event2\Event2Runner.cs" />
+    <Compile Include="Control Work\CW2\LINQ.cs" />
+    <Compile Include="Control Work\CW2\Reflection\Event.cs" />
+    <Compile Include="Control Work\CW2\Reflection\Reflection.cs" />
+    <Compile Include="Control Work\CW2\Reflection\ReflectionRunner.cs" />
+    <Compile Include="Control Work\CW2\Trees\TreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
