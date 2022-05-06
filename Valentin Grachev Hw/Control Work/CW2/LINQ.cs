@@ -13,7 +13,6 @@ namespace Homework.Control_Work.CW2
             public int Id { get; set; }
             public string Name { get; set; }
         }
-
         public class Price
         {
             public int Id { get; set; }
@@ -58,18 +57,17 @@ namespace Homework.Control_Work.CW2
 
             void Task_2()
             {
-                var products = Task_1().SelectMany(x => x).GroupBy(x => x.Id);
-                foreach (var group in products)
+                var product = Task_1().SelectMany(x => x).GroupBy(x => x.Id);
+                foreach (var group in product)
                     Console.WriteLine($"{group.First().Name}, {group.Count()}, {group.Count() * prices.Find(x => x.ProductId == group.First().Id).Sum}");
 
-                Console.WriteLine(products.SelectMany(x => x).Select(x => prices.Find(price => price.ProductId == x.Id).Sum).Sum());
+                Console.WriteLine(product.SelectMany(x => x).Select(x => prices.Find(price => price.ProductId == x.Id).Sum).Sum());
             }
 
             void Task_3() => Console.WriteLine(prices
                     .GroupBy(price => price.ProductId)
                     .Select(x => x.Average(y => y.Sum))
-                    .ToList()
-                    .ForEach(y => y));
+                    .ToList());
             List<Tuple<List<Product>, int>> Task_4() =>
                 new List<Tuple<List<Product>, int>>()
                 {
