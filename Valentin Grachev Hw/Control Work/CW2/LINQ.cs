@@ -63,11 +63,12 @@ namespace Homework.Control_Work.CW2
 
                 Console.WriteLine(product.SelectMany(x => x).Select(x => prices.Find(price => price.ProductId == x.Id).Sum).Sum());
             }
-
-            void Task_3() => Console.WriteLine(prices
+           
+            void Task_3() => prices
                     .GroupBy(price => price.ProductId)
                     .Select(x => x.Average(y => y.Sum))
-                    .ToList());
+                    .ToList()
+                    .ForEach(x => Console.WriteLine(x));
             List<Tuple<List<Product>, int>> Task_4() =>
                 new List<Tuple<List<Product>, int>>()
                 {
