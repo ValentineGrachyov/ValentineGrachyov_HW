@@ -34,8 +34,12 @@ namespace Homework._2_Semester_Hw._28._02___7
 
         }
 
-        public void ReverseList()
+        public void ReverseList(params T[] arr)
         {
+            foreach(var item in arr)
+            {
+                Add(item);
+            }
             var headCopy = head;
             Stack<T> st = new Stack<T>();
             for (GenericNode<T> i = null; i != headCopy;headCopy = headCopy.NextNode)

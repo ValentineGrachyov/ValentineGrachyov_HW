@@ -5,7 +5,21 @@
     <projectFile profileName="AISD">../AISD/AISD.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3323460-2feb-4f42-b63b-68a18058f362" name="Changes" comment="" />
+    <list default="true" id="b3323460-2feb-4f42-b63b-68a18058f362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AISD/AISD.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AISD/AISD.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AISD/Classwork/Mult/StrangeMult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AISD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AISD/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests_For_HW/obj/Debug/Tests_For_HW.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests_For_HW/obj/Debug/Tests_For_HW.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Valentine G Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Valentine G Homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Valentine G Homework/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Valentine G Homework/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 Semester Hw/28.02-7.03/LinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2 Semester Hw/28.02-7.03/LinkedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Homework.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Homework.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Homework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Homework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Homework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Homework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Homework.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Homework.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Homework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Homework.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Homework">
@@ -72,6 +87,8 @@
       <workItem from="1647843645649" duration="51000" />
       <workItem from="1651743964001" duration="216000" />
       <workItem from="1651759258029" duration="38000" />
+      <workItem from="1651938785406" duration="245000" />
+      <workItem from="1652440601716" duration="2683000" />
     </task>
     <servers />
   </component>

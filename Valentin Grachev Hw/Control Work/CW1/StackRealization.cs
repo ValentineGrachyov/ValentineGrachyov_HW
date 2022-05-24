@@ -7,16 +7,33 @@ using System.Collections;
 
 namespace Homework.Control_Work
 {
-    public class StackRealization<T> 
+    public class StackRealization<T>  : IEnumerator<T>
     {
         private Node<T> head;
-        
+
+        private int position = 0;
+
+        public T Current => head.InfField;
+
+        object IEnumerator.Current
+        {
+            get
+            {
+                if(position == 0 || position > Size())
+                {  throw new ArgumentException("Нет аргумента"); }
+                
+                return head.InfField;
+            }
+        }
+
         public StackRealization() { }
 
         public StackRealization(T a)
         {
             head = new Node<T>(a);
         }
+
+        
 
         public bool IsEmpty()
         {
@@ -64,11 +81,6 @@ namespace Homework.Control_Work
             headCopy.NextNode = nextEl;
             
         }
-
-        
-
-
-
         public override string ToString()
         {
             StringBuilder result = new StringBuilder();
@@ -89,18 +101,32 @@ namespace Homework.Control_Work
 
         }
 
-        public void Add(int v)
-        {
-            throw new NotImplementedException();
-        }
-
         public void WriteToConsole()
         {
             Console.WriteLine(ToString());
         }
 
+        public void Dispose()
+        {
+            head = null;
+        }
 
+        public bool MoveNext()
+        {
+            if(position != Size())
+            {
+                position++;
+                return true;
+            }
+            else 
+                return false;
+        }
 
+        public void Reset()
+        {
+            position = 0;
+
+        }
     }
 
 
