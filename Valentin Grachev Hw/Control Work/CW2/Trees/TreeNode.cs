@@ -138,7 +138,7 @@ namespace Homework.Control_Work.CW2.Trees
                     lastHeight = currentHeight;
                     currentColor = colors[new Random().Next(1, 15)];
                     Console.ForegroundColor = currentColor;
-                    Console.WriteLine(runner.Data);
+                    Console.WriteLine(runner.Data); 
                 }
 
                 if (runner.Left != null)

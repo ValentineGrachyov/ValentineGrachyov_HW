@@ -24,6 +24,8 @@ namespace AISD
             var nextEl = headCopy.NextNode;
             var nextElCopy = nextEl;
 
+            if (head == null) { Console.WriteLine("Пустое дерево"); }
+
             while(nextElCopy.NextNode != null && headCopy.NextNode != null )
             {
                 nextEl = headCopy;
