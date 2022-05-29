@@ -25,6 +25,8 @@ namespace Homework._2_Semester_Hw
             var middleEl = headCopy.NextNode;
             var next = middleEl.NextNode;
 
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
+
             while (next.NextNode != null)
             {
                 next = next.NextNode;
@@ -39,6 +41,8 @@ namespace Homework._2_Semester_Hw
         {
             var headCopy = head;
             var next = headCopy.NextNode;
+
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
 
             while (next.InfField != n)
             {
@@ -57,6 +61,8 @@ namespace Homework._2_Semester_Hw
         public void Delete_All_Correct_Elements(int k)
         {
             var headCopy = head;
+
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
 
             if (headCopy.NextNode != null)
             {
@@ -79,6 +85,8 @@ namespace Homework._2_Semester_Hw
             var headCopy = head;
             var middleEl = headCopy.NextNode;
             var next = middleEl.NextNode;
+
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
 
             while (middleEl.InfField != n)
             {
@@ -103,6 +111,8 @@ namespace Homework._2_Semester_Hw
         public void Add_Near_Element(int m, int k)
         {
             var headcopy = head;
+
+            if (headcopy == null) Console.WriteLine("Пустое дерево");
 
             while (headcopy.InfField != k)
             {
@@ -160,6 +170,8 @@ namespace Homework._2_Semester_Hw
             var headCopy = head;
             double sum = 0;
 
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
+
             while (headCopy.NextNode != null)
             {
                 sum += headCopy.InfField;
@@ -184,6 +196,8 @@ namespace Homework._2_Semester_Hw
         {
             var headCopy = head;
 
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
+
             headCopy = head.NextNode;
 
             head = headCopy;
@@ -193,6 +207,8 @@ namespace Homework._2_Semester_Hw
 
             var headCopy = head;
             var previous = head;
+
+            if (headCopy == null) Console.WriteLine("Пустое дерево");
 
             while (headCopy.NextNode != null)
             {
@@ -213,6 +229,8 @@ namespace Homework._2_Semester_Hw
         {
             var copyhead = head;
             var previous = head;
+
+            if (copyhead == null) Console.WriteLine("Пустое дерево");
 
             for (int i = 1; i < a; i++)
             {

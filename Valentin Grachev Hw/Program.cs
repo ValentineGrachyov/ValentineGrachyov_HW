@@ -18,18 +18,10 @@ namespace Homework
     {
         static void Main()
         {
-            //Event1Runner.Run();
-            //Event2Runner.Run();
-            //ReflectionRunner.Run();
-
-            //var a = new Linq();
-            //a.Run();
-            
             var a = new LinkedList<int>(0);
-            a.ReverseList(1,2,3,4,5);
-            
+            a.AddRange(1,2,3,5,6);
+            a.WriteToConsole();
 
-            
             Console.ReadLine();
         }
     }

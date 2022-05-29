@@ -59,7 +59,6 @@
     <Compile Include="2 Semester Hw\28.04.2022Events\MCHS.cs" />
     <Compile Include="2 Semester Hw\14.02-28.02\CustomList.cs" />
     <Compile Include="2 Semester Hw\14.02-28.02\Node.cs" />
-    <Compile Include="2 Semester Hw\28.02-7.03\ArrayList.cs" />
     <Compile Include="Control Work\CW1\Node.cs" />
     <Compile Include="Control Work\CW1\StackRealization.cs" />
     <Compile Include="Control Work\CW1\StackRunner.cs" />

@@ -55,6 +55,12 @@ namespace Homework._2_Semester_Hw._28._02___7
             }
             
         }
+
+        public void AddRange(params T[] arr)
+        { 
+            foreach(var el in arr)
+                Add(el);
+        }
         public override string ToString()
         {
             StringBuilder result = new StringBuilder();
