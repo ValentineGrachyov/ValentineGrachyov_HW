@@ -57,7 +57,8 @@ namespace Homework
             pL.ForEach(x => Console.WriteLine($"Имя пациента {x.Patient.Name} имя врача{x.Doc.Name} специализация врача{x.Doc.Prof}"));
 
             //Вывести список имя врача, количество пациентов, средний возраст пациентов, которых он лечит
-            pL.);
+            pL.Select(x=> x.Where(x.Patient.DocId == x.Doctor.DocId)).ToList()
+              .Select(x => Console.WriteLine($"{x.Doctor.Name} {x.Average(x.Patient.Age)}"));
         }
 
         public class Patient
